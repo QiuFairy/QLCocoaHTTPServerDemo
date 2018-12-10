@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41FB288A21BE15C30009E9F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FB288921BE15C30009E9F6 /* AppDelegate.m */; };
+		41FB288D21BE15C30009E9F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FB288C21BE15C30009E9F6 /* ViewController.m */; };
+		41FB289021BE15C30009E9F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FB288E21BE15C30009E9F6 /* Main.storyboard */; };
+		41FB289221BE15C40009E9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41FB289121BE15C40009E9F6 /* Assets.xcassets */; };
+		41FB289521BE15C40009E9F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FB289321BE15C40009E9F6 /* LaunchScreen.storyboard */; };
+		41FB289821BE15C40009E9F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FB289721BE15C40009E9F6 /* main.m */; };
+		41FB28A121BE187D0009E9F6 /* QLHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FB28A021BE187D0009E9F6 /* QLHTTPConnection.m */; };
+		41FB28A421BE18B40009E9F6 /* QLIPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FB28A321BE18B40009E9F6 /* QLIPHelper.m */; };
+		41FB28A721BE19B00009E9F6 /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FB28A621BE19B00009E9F6 /* QLViewController.m */; };
+		41FB28AB21BE2B0A0009E9F6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 41FB28A921BE2B0A0009E9F6 /* index.html */; };
+		41FB28AC21BE2B0A0009E9F6 /* upload.html in Resources */ = {isa = PBXBuildFile; fileRef = 41FB28AA21BE2B0A0009E9F6 /* upload.html */; };
+		8378042ADC8D16C1D4FB7A61 /* libPods-QLCocoaHTTPServerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42ACFDDE1738717998629958 /* libPods-QLCocoaHTTPServerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E108BA6FD4E2563D546BB48 /* Pods-QLCocoaHTTPServerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLCocoaHTTPServerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QLCocoaHTTPServerDemo/Pods-QLCocoaHTTPServerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		41FB288521BE15C30009E9F6 /* QLCocoaHTTPServerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLCocoaHTTPServerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FB288821BE15C30009E9F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41FB288921BE15C30009E9F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41FB288B21BE15C30009E9F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41FB288C21BE15C30009E9F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41FB288F21BE15C30009E9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41FB289121BE15C40009E9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41FB289421BE15C40009E9F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41FB289621BE15C40009E9F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FB289721BE15C40009E9F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41FB289F21BE187D0009E9F6 /* QLHTTPConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLHTTPConnection.h; sourceTree = "<group>"; };
+		41FB28A021BE187D0009E9F6 /* QLHTTPConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLHTTPConnection.m; sourceTree = "<group>"; };
+		41FB28A221BE18B40009E9F6 /* QLIPHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLIPHelper.h; sourceTree = "<group>"; };
+		41FB28A321BE18B40009E9F6 /* QLIPHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLIPHelper.m; sourceTree = "<group>"; };
+		41FB28A521BE19B00009E9F6 /* QLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLViewController.h; sourceTree = "<group>"; };
+		41FB28A621BE19B00009E9F6 /* QLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLViewController.m; sourceTree = "<group>"; };
+		41FB28A921BE2B0A0009E9F6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		41FB28AA21BE2B0A0009E9F6 /* upload.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = upload.html; sourceTree = "<group>"; };
+		42ACFDDE1738717998629958 /* libPods-QLCocoaHTTPServerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QLCocoaHTTPServerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB61846020CE6CC6188FA2E7 /* Pods-QLCocoaHTTPServerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLCocoaHTTPServerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QLCocoaHTTPServerDemo/Pods-QLCocoaHTTPServerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41FB288221BE15C30009E9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8378042ADC8D16C1D4FB7A61 /* libPods-QLCocoaHTTPServerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41FB287C21BE15C30009E9F6 = {
+			isa = PBXGroup;
+			children = (
+				41FB288721BE15C30009E9F6 /* QLCocoaHTTPServerDemo */,
+				41FB288621BE15C30009E9F6 /* Products */,
+				CA9A93D5F9623D16E8736646 /* Pods */,
+				F074F2A6FA5B286205146850 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41FB288621BE15C30009E9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41FB288521BE15C30009E9F6 /* QLCocoaHTTPServerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41FB288721BE15C30009E9F6 /* QLCocoaHTTPServerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				41FB28A821BE2B0A0009E9F6 /* web */,
+				41FB289E21BE18390009E9F6 /* Tools */,
+				41FB288821BE15C30009E9F6 /* AppDelegate.h */,
+				41FB288921BE15C30009E9F6 /* AppDelegate.m */,
+				41FB288B21BE15C30009E9F6 /* ViewController.h */,
+				41FB288C21BE15C30009E9F6 /* ViewController.m */,
+				41FB28A521BE19B00009E9F6 /* QLViewController.h */,
+				41FB28A621BE19B00009E9F6 /* QLViewController.m */,
+				41FB288E21BE15C30009E9F6 /* Main.storyboard */,
+				41FB289121BE15C40009E9F6 /* Assets.xcassets */,
+				41FB289321BE15C40009E9F6 /* LaunchScreen.storyboard */,
+				41FB289621BE15C40009E9F6 /* Info.plist */,
+				41FB289721BE15C40009E9F6 /* main.m */,
+			);
+			path = QLCocoaHTTPServerDemo;
+			sourceTree = "<group>";
+		};
+		41FB289E21BE18390009E9F6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				41FB289F21BE187D0009E9F6 /* QLHTTPConnection.h */,
+				41FB28A021BE187D0009E9F6 /* QLHTTPConnection.m */,
+				41FB28A221BE18B40009E9F6 /* QLIPHelper.h */,
+				41FB28A321BE18B40009E9F6 /* QLIPHelper.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		41FB28A821BE2B0A0009E9F6 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				41FB28A921BE2B0A0009E9F6 /* index.html */,
+				41FB28AA21BE2B0A0009E9F6 /* upload.html */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		CA9A93D5F9623D16E8736646 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E108BA6FD4E2563D546BB48 /* Pods-QLCocoaHTTPServerDemo.debug.xcconfig */,
+				BB61846020CE6CC6188FA2E7 /* Pods-QLCocoaHTTPServerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F074F2A6FA5B286205146850 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42ACFDDE1738717998629958 /* libPods-QLCocoaHTTPServerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41FB288421BE15C30009E9F6 /* QLCocoaHTTPServerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FB289B21BE15C40009E9F6 /* Build configuration list for PBXNativeTarget "QLCocoaHTTPServerDemo" */;
+			buildPhases = (
+				EF4567EB345FDF781D1513FE /* [CP] Check Pods Manifest.lock */,
+				41FB288121BE15C30009E9F6 /* Sources */,
+				41FB288221BE15C30009E9F6 /* Frameworks */,
+				41FB288321BE15C30009E9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLCocoaHTTPServerDemo;
+			productName = QLCocoaHTTPServerDemo;
+			productReference = 41FB288521BE15C30009E9F6 /* QLCocoaHTTPServerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41FB287D21BE15C30009E9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = QiuFairy;
+				TargetAttributes = {
+					41FB288421BE15C30009E9F6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 41FB288021BE15C30009E9F6 /* Build configuration list for PBXProject "QLCocoaHTTPServerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41FB287C21BE15C30009E9F6;
+			productRefGroup = 41FB288621BE15C30009E9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41FB288421BE15C30009E9F6 /* QLCocoaHTTPServerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41FB288321BE15C30009E9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FB289521BE15C40009E9F6 /* LaunchScreen.storyboard in Resources */,
+				41FB28AC21BE2B0A0009E9F6 /* upload.html in Resources */,
+				41FB28AB21BE2B0A0009E9F6 /* index.html in Resources */,
+				41FB289221BE15C40009E9F6 /* Assets.xcassets in Resources */,
+				41FB289021BE15C30009E9F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EF4567EB345FDF781D1513FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QLCocoaHTTPServerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41FB288121BE15C30009E9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FB288D21BE15C30009E9F6 /* ViewController.m in Sources */,
+				41FB289821BE15C40009E9F6 /* main.m in Sources */,
+				41FB28A121BE187D0009E9F6 /* QLHTTPConnection.m in Sources */,
+				41FB28A721BE19B00009E9F6 /* QLViewController.m in Sources */,
+				41FB288A21BE15C30009E9F6 /* AppDelegate.m in Sources */,
+				41FB28A421BE18B40009E9F6 /* QLIPHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41FB288E21BE15C30009E9F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FB288F21BE15C30009E9F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41FB289321BE15C40009E9F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FB289421BE15C40009E9F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41FB289921BE15C40009E9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41FB289A21BE15C40009E9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41FB289C21BE15C40009E9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E108BA6FD4E2563D546BB48 /* Pods-QLCocoaHTTPServerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLCocoaHTTPServerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.QLCocoaHTTPServerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41FB289D21BE15C40009E9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB61846020CE6CC6188FA2E7 /* Pods-QLCocoaHTTPServerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QLCocoaHTTPServerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiu.QLCocoaHTTPServerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41FB288021BE15C30009E9F6 /* Build configuration list for PBXProject "QLCocoaHTTPServerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FB289921BE15C40009E9F6 /* Debug */,
+				41FB289A21BE15C40009E9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41FB289B21BE15C40009E9F6 /* Build configuration list for PBXNativeTarget "QLCocoaHTTPServerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FB289C21BE15C40009E9F6 /* Debug */,
+				41FB289D21BE15C40009E9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41FB287D21BE15C30009E9F6 /* Project object */;
+}
